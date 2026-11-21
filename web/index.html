@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Banking Management System</h1>
+        <p>Secure Banking at Your Fingertips</p>
+    </header>
+
+    <main>
+        <h2>Dashboard</h2>
+        <p>Welcome to your banking dashboard.</p>
+
+        <section class="cards">
+            <div class="card">
+                <h3>Total Accounts</h3>
+                <p id="totalAccounts">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Deposits</h3>
+                <p id="totalDeposits">₹0</p>
+            </div>
+
+            <div class="card">
+                <h3>Transactions</h3>
+                <p id="totalTransactions">0</p>
+            </div>
+        </section>
+
+        <h2>Banking Services</h2>
+
+        <section class="services">
+            <button onclick="showCreateAccount()">Create Account</button>
+            <button onclick="showDepositForm()">DepositMoney</button>
+            <button onclick="showWithdrawForm()">Withdraw Money</button>
+            <button onclick="showTransferForm()">Transfer Money</button>
+            <button onclick="showBalanceForm()">CheckBalance</button>
+            <button onclick="showTransactionHistoryForm()">Transaction History</button>
+            </section>
+        <section id="formArea"></section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

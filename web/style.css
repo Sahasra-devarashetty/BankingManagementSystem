@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f2f5fa;
+    color: #1d2940;
+}
+
+header {
+    background: #102c54;
+    color: white;
+    padding: 25px 40px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+main {
+    padding: 35px 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #00000012;
+}
+
+.card h3 {
+    color: #52627a;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1769aa;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+button {
+    background: #1769aa;
+    color: white;
+    border: none;
+    padding: 18px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #102c54;
+}
+
+@media (max-width: 650px) {
+    .cards, .services {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        padding: 20px;
+    }
+}
+
+#formArea {
+    background: white;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #00000012;
+}
+
+#accountForm {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 450px;
+}
+
+#accountForm input,
+#accountForm select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+#accountForm label {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#accountForm button {
+    margin-top: 12px;
+}

@@ -1,0 +1,15 @@
+# Java compiled files
+*.class
+
+# VS Code settings
+.vscode/
+
+# Backup files
+*.bak
+
+# Private credentials
+.env
+.env.*
+
+# Logs
+*.log
