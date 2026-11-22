@@ -1,0 +1,16 @@
+
+# Java compiled files
+*.class
+
+# Temporary backup files
+*.bak
+
+# VS Code workspace settings
+.vscode/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
