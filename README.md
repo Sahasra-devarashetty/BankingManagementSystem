@@ -60,3 +60,6 @@ This project demonstrates practical implementation of DBMS concepts, Java progra
 Devarashetty Sahasra
 
 B.Tech – Computer Science and Engineering
+## ER Diagram
+
+![Banking Management System ER Diagram](BankingManagementSystem_ER_Diagram.png)
