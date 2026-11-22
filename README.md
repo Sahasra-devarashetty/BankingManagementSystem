@@ -48,8 +48,15 @@ The project database is designed using MySQL Workbench. The database model inclu
 3. Configure the MySQL database.
 4. Add MySQL Connector/J to the Java project.
 5. Configure the database connection details.
-6. Run the Java backend.
-7. Open the web application in a browser.
+6. 
+   **Windows PowerShell:**
+
+   ```powershell
+   $env:DB_USER="root"
+   $env:DB_PASSWORD="YOUR_MYSQL_PASSWORD"
+   ```
+7. Run the Java backend.
+8. Open the web application in a browser.
 
 ## Project Purpose
 
